@@ -1,0 +1,12 @@
+<div class="card-game">
+  <p-card header="{{ cardObj.title }}">
+    <ng-template pTemplate="header">
+      <a href="{{ cardObj.marketLink }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Card" src="{{ cardObj.imgLink }}">
+      </a>
+    </ng-template>
+    <p> {{ cardObj.paragraph }} </p>
+    <ng-template pTemplate="footer">
+    </ng-template>
+  </p-card>
+</div>

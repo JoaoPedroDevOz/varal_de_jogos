@@ -1,0 +1,43 @@
+.header-blog {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+
+  &__content {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__inputgroup {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    color: white;
+    font-size: 40px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+.main-cards {
+  margin: 30px;
+
+  &__posts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
